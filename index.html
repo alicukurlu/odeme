@@ -96,8 +96,22 @@
             transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), filter 0.5s ease;
             filter: drop-shadow(0 10px 10px rgba(0,0,0,0.1));
         }
+      
+              .logo2 {
+            width: 180px;
+            height: 180px;
+            object-fit: contain;
+            margin-bottom: 30px;
+            transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1), filter 0.5s ease;
+            filter: drop-shadow(0 10px 10px rgba(0,0,0,0.1));
+        }
 
-        .card:hover .logo {
+              .card:hover .logo {
+            transform: scale(1.15) translateZ(30px);
+            filter: drop-shadow(0 15px 15px rgba(0,0,0,0.2));
+        }
+      
+        .card:hover .logo2 {
             transform: scale(1.15) translateZ(30px);
             filter: drop-shadow(0 15px 15px rgba(0,0,0,0.2));
         }
@@ -256,84 +270,45 @@
 <body>
     <div class="background"></div>
     <div class="container">
-        <div class="card">
-            <img src="https://i.hizliresim.com/md27dug.png" alt="Akbank Logo" class="logo">
-            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #e01b22, #ff6b6b);">Akbank</h2>
-            <div class="info">
-                <p><strong>ENES KOCA</strong></p>
-                <p>Para Birimi: TL</p>
-                <p>Hesap No: 0364637</p>
-                <p>Şube: Düzce - 83</p>
-                <p>IBAN: TR89 0004 6000 8388 8000 3646 37</p>
-            </div>
-            <button class="copy-btn" style="background-color: #e01b22;" data-clipboard="TR89 0004 6000 8388 8000 3646 37">KOPYALA</button>
-        </div>
-
-        <div class="card">
-            <img src="https://i.hizliresim.com/hyhqkti.png" alt="Denizbank Logo" class="logo">
-            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #004c91, #0077be);">Denizbank</h2>
-            <div class="info">
-                <p><strong>ENES KOCA</strong></p>
-                <p>Para Birimi: TL</p>
-                <p>Hesap No: 93465894</p>
-                <p>Şube: Düzce/Merkez - 81000</p>
-                <p>IBAN: TR54 0013 4000 0223 9092 3000 01</p>
-            </div>
-            <button class="copy-btn" style="background-color: #ce163a;" data-clipboard="TR54 0013 4000 0223 9092 3000 01">KOPYALA</button>
-        </div>
 
         <div class="card">
             <img src="https://i.hizliresim.com/hva2hn1.png" alt="Enpara Logo" class="logo">
             <h2 class="bank-name" style="background-image: linear-gradient(45deg, #f89c1c, #a955a0, #00adee, #98c93c);">Enpara</h2>
             <div class="info">
-                <p><strong>ENES KOCA</strong></p>
+                <p><strong>ALİ OSMAN ÇUKURLU</strong></p>
                 <p>Para Birimi: TL</p>
-                <p>Hesap No: 93465894</p>
-                <p>Şube: WEB - 3663</p>
-                <p>IBAN: TR61 0011 1000 0000 0093 4658 94</p>
+                <p>Hesap No: 12345678</p>
+                <p>Şube: WEB - 1234</p>
+                <p>IBAN: TR94 0011 1000 0000 0109 4500 27</p>
             </div>
-            <button class="copy-btn" style="background-image: linear-gradient(to right, #f89c1c, #a955a0, #00adee, #98c93c);" data-clipboard="TR61 0011 1000 0000 0093 4658 94">KOPYALA</button>
+            <button class="copy-btn" style="background-image: linear-gradient(to right, #f89c1c, #a955a0, #00adee, #98c93c);" data-clipboard="TR94 0011 1000 0000 0109 4500 27">KOPYALA</button>
+        </div>
+      
+              <div class="card">
+            <img src="https://i.hizliresim.com/38cug0n.png" alt="Enpara Logo" class="logo">
+            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #f89c1c, #a955a0, #00adee, #98c93c);">Şirketim</h2>
+            <div class="info">
+                <p><strong>ALİ OSMAN ÇUKURLU</strong></p>
+                <p>Para Birimi: TL</p>
+                <p>Hesap No: 12345678</p>
+                <p>Şube: WEB - 1234</p>
+                <p>IBAN: TR70 0011 1000 0000 0135 3949 52</p>
+            </div>
+            <button class="copy-btn" style="background-image: linear-gradient(to right, #f89c1c, #a955a0, #00adee, #98c93c);" data-clipboard="TR70 0011 1000 0000 0135 3949 52">KOPYALA</button>
         </div>
 
         <div class="card">
-            <img src="https://i.hizliresim.com/68mh1oj.png" alt="Garanti Bank Logo" class="logo">
-            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #146d07, #2ecc71);">Garanti Bank</h2>
+            <img src="https://i.hizliresim.com/30qsw7d.png" alt="Kuveyt Türk Logo" class="logo2">
+            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #046648, #046648);">Kuveyt Türk</h2>
             <div class="info">
-                <p><strong>ENES KOCA</strong></p>
+                <p><strong>ALİ OSMAN ÇUKURLU</strong></p>
                 <p>Para Birimi: TL</p>
-                <p>Hesap No: 93465894</p>
-                <p>Şube: GARANTİ - 3663</p>
-                <p>IBAN: TR21 0006 2000 5220 0006 6017 84</p>
+                <p>Hesap No: 12345678</p>
+                <p>Şube: WEB - 1234</p>
+                <p>IBAN: TR33 0020 5000 0994 4334 3000 01</p>
             </div>
-            <button class="copy-btn" style="background-color: #146d07;" data-clipboard="TR21 0006 2000 5220 0006 6017 84">KOPYALA</button>
+            <button class="copy-btn" style="background-color: #046648;" data-clipboard="TR33 0020 5000 0994 4334 3000 01">KOPYALA</button>
         </div>
-
-        <div class="card">
-            <img src="https://i.hizliresim.com/q58q1nr.png" alt="Papara Logo" class="logo">
-            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #d3445f, #952a8a);">Papara</h2>
-            <div class="info">
-                <p><strong>ENES KOCA</strong></p>
-                <p>Para Birimi: TL</p>
-                <p>Hesap No: 5477334740</p>
-                <p>Şube: PAPARA</p>
-                <p>IBAN: 5477334740</p>
-            </div>
-            <button class="copy-btn" style="background-image: linear-gradient(to right, #d3445f, #952a8a);" data-clipboard="5477334740">KOPYALA</button>
-        </div>
-
-        <div class="card">
-            <img src="https://i.hizliresim.com/d3qf1ik.png" alt="Ziraat Bank Logo" class="logo">
-            <h2 class="bank-name" style="background-image: linear-gradient(45deg, #d30b11, #ff4757);">Ziraat Bank</h2>
-            <div class="info">
-                <p><strong>ENES KOCA</strong></p>
-                <p>Para Birimi: TL</p>
-                <p>Hesap No: 93465894</p>
-                <p>Şube: Düzce/Merkez - 81000</p>
-                <p>IBAN: TR84 0001 0090 1004 3081 4050 01</p>
-            </div>
-            <button class="copy-btn" style="background-color: #d30b11;" data-clipboard="TR84 0001 0090 1004 3081 4050 01">KOPYALA</button>
-        </div>
-    </div>
 
     <div class="popup" id="popup">Panoya kopyalandı!</div>
 
